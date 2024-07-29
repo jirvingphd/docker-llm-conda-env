@@ -1,0 +1,19 @@
+name: llm-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - conda-forge::plotly
+  - pip
+
+  
+prefix: /opt/conda/envs/llm-env

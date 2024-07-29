@@ -1,0 +1,24 @@
+name: llm_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+- python=3.11
+- pip
+- jupyter
+- notebook
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
+- tensorflow-macos
+- pytorch
+- torchvision
+- torchaudio
+- transformers
+- flask
+- pip:
+  - langchain_core
+  - langchain_openai
+  - langchain_community

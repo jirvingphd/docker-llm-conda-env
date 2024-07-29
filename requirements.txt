@@ -1,0 +1,11 @@
+langchain_core
+langchain_openai
+langchain_community
+pydantic
+tensorflow
+torch
+transformers
+torchaudio
+torchtext
+torchvision
+faiss-cpu
